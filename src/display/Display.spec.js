@@ -3,7 +3,7 @@ import React from "react";
 import { render } from "react-testing-library";
 import "jest-dom/extend-expect";
 
-import Display from "./Display";
+import Display from "./Display.js";
 
 describe("the gate test", () => {
   it("is red-led when locked or closed", () => {
